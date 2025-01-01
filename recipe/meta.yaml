@@ -64,7 +64,8 @@ outputs:
         # image
         - imageio >=2.16
         # mrcz
-        - mrcz
+        # remove mrcz until the conda-forge feedstock is fixed
+        #- mrcz
         - blosc
         # scalebar_export
         - matplotlib-scalebar
@@ -75,7 +76,8 @@ outputs:
         - tifffile >=2022.7.28
         - imagecodecs >=2021.11.20
         # usid
-        - pyUSID >=0.0.11
+        # dependencies resolution fails when building on windows, reason unknown
+        #- pyUSID >=0.0.11
         # zspy
         - zarr
     test:
