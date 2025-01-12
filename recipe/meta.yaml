@@ -75,7 +75,7 @@ outputs:
         # dependencies resolution fails when building on windows, reason unknown
         #- pyUSID >=0.0.11
         # zspy
-        - zarr
+        - zarr >=2,<3
     test:
       imports:
         - rsciio
