@@ -302,6 +302,3 @@ Feedstock Maintainers
 * [@francisco-dlp](https://github.com/francisco-dlp/)
 * [@jlaehne](https://github.com/jlaehne/)
 
-
-<!-- dummy commit to enable rerendering -->
-
