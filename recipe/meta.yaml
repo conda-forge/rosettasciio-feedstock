@@ -76,6 +76,8 @@ outputs:
         #- pyUSID >=0.0.11
         # zspy
         - zarr >=2,<3
+        # unpin when zarr is unpinned
+        - numcodecs <0.16
     test:
       imports:
         - rsciio
