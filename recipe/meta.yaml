@@ -10,7 +10,7 @@ source:
   sha256: 65f861519364e38f0c84459d089b89d00c1b137256b0149a00df7ec672369f2a
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: rosettasciio-base
@@ -76,6 +76,8 @@ outputs:
         #- pyUSID >=0.0.11
         # zspy
         - zarr >=2,<3
+        # unpin when zarr is unpinned
+        - numcodecs <0.16
     test:
       imports:
         - rsciio
