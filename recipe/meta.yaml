@@ -1,5 +1,5 @@
 {% set name = "rosettasciio" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rosettasciio-{{ version }}.tar.gz
-  sha256: 65f861519364e38f0c84459d089b89d00c1b137256b0149a00df7ec672369f2a
+  sha256: 51291757879e3afe36c812e958f2ce978f2c419794b469d4dca09ccfd8e189b9
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: rosettasciio-base
