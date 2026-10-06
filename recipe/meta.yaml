@@ -69,7 +69,7 @@ outputs:
         - matplotlib-scalebar
         - matplotlib-base >=3.6
         # speed
-        - numba >=0.56
+        - numba >=0.58.0
         # tiff
         # exclude 2026.2.24: https://github.com/cgohlke/tifffile/issues/319
         - tifffile >=2022.7.28,!=2026.2.24
