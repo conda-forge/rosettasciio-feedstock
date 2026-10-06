@@ -32,9 +32,9 @@ outputs:
         - wheel
       run:
         - python
-        - dask-core >=2022.9.2
+        - dask-core >=2024.12.0
         - python-dateutil
-        - numpy >=1.22.0
+        - numpy >=1.25.0
         - pint >=0.8
         - python-box >=6,<8
         - pyyaml
@@ -52,15 +52,15 @@ outputs:
         - {{ pin_subpackage('rosettasciio-base', exact=True) }}
         - python
         # blockfile
-        - scikit-image >=0.20
+        - scikit-image >=0.21.0
         # eds-stream
         - sparse
         # hdf5
-        - h5py >=3.7
+        - h5py >=3.8.0
         # arina
         - hdf5plugin
         # image
-        - imageio >=2.16
+        - imageio >=2.27
         # mrcz
         # remove mrcz until the conda-forge feedstock is fixed
         #- mrcz
